@@ -11,7 +11,7 @@ func NewTree() *Tree {
 func (tree *Tree) SetParent(node *Node) {
 	tree.parent = node
 }
-func (tree *Tree) SetParentValue(value float32) {
+func (tree *Tree) SetParentByValue(value float32) {
 	node := NewNode(value)
 	tree.SetParent(node)
 }
